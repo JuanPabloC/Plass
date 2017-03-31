@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A08AE7801E04119100386370 /* ChosenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08AE77F1E04119100386370 /* ChosenCell.swift */; };
+		A08AE7821E0413DE00386370 /* ExistingCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08AE7811E0413DE00386370 /* ExistingCoursesViewController.swift */; };
+		A08AE7841E04848200386370 /* ImageFetcherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08AE7831E04848200386370 /* ImageFetcherController.swift */; };
+		A08AE7861E048C8600386370 /* CDCSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08AE7851E048C8600386370 /* CDCSView.swift */; };
+		A08AE7881E04905B00386370 /* ImageFetchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08AE7871E04905B00386370 /* ImageFetchError.swift */; };
 		A0F2AE0D1E0337EA00C96654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AE0C1E0337EA00C96654 /* AppDelegate.swift */; };
 		A0F2AE0F1E0337EA00C96654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AE0E1E0337EA00C96654 /* ViewController.swift */; };
 		A0F2AE121E0337EA00C96654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F2AE101E0337EA00C96654 /* Main.storyboard */; };
 		A0F2AE151E0337EA00C96654 /* coURses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AE131E0337EA00C96654 /* coURses.xcdatamodeld */; };
 		A0F2AE171E0337EA00C96654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F2AE161E0337EA00C96654 /* Assets.xcassets */; };
 		A0F2AE1A1E0337EA00C96654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F2AE181E0337EA00C96654 /* LaunchScreen.storyboard */; };
+		A0F2AE221E03499A00C96654 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AE211E03499A00C96654 /* CourseCell.swift */; };
+		A0F2AE241E03630600C96654 /* SemestersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AE231E03630600C96654 /* SemestersTableView.swift */; };
+		A0F2AE261E036ED800C96654 /* SemesterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AE251E036ED800C96654 /* SemesterCell.swift */; };
+		A0F2AE2E1E03821F00C96654 /* IndSemesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AE2D1E03821F00C96654 /* IndSemesterViewController.swift */; };
+		A0F2AE3A1E0398F400C96654 /* PopOverAddCourseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AE391E0398F400C96654 /* PopOverAddCourseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0F2AE091E0337EA00C96654 /* coURses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coURses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08AE77F1E04119100386370 /* ChosenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChosenCell.swift; sourceTree = "<group>"; };
+		A08AE7811E0413DE00386370 /* ExistingCoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingCoursesViewController.swift; sourceTree = "<group>"; };
+		A08AE7831E04848200386370 /* ImageFetcherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetcherController.swift; sourceTree = "<group>"; };
+		A08AE7851E048C8600386370 /* CDCSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDCSView.swift; sourceTree = "<group>"; };
+		A08AE7871E04905B00386370 /* ImageFetchError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetchError.swift; sourceTree = "<group>"; };
+		A0F2AE091E0337EA00C96654 /* Plass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F2AE0C1E0337EA00C96654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0F2AE0E1E0337EA00C96654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0F2AE111E0337EA00C96654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +39,11 @@
 		A0F2AE161E0337EA00C96654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0F2AE191E0337EA00C96654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0F2AE1B1E0337EA00C96654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F2AE211E03499A00C96654 /* CourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		A0F2AE231E03630600C96654 /* SemestersTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemestersTableView.swift; sourceTree = "<group>"; };
+		A0F2AE251E036ED800C96654 /* SemesterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemesterCell.swift; sourceTree = "<group>"; };
+		A0F2AE2D1E03821F00C96654 /* IndSemesterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndSemesterViewController.swift; sourceTree = "<group>"; };
+		A0F2AE391E0398F400C96654 /* PopOverAddCourseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverAddCourseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +68,7 @@
 		A0F2AE0A1E0337EA00C96654 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0F2AE091E0337EA00C96654 /* coURses.app */,
+				A0F2AE091E0337EA00C96654 /* Plass.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,22 +77,56 @@
 			isa = PBXGroup;
 			children = (
 				A0F2AE0C1E0337EA00C96654 /* AppDelegate.swift */,
-				A0F2AE0E1E0337EA00C96654 /* ViewController.swift */,
-				A0F2AE101E0337EA00C96654 /* Main.storyboard */,
+				A0F2AE301E038DAF00C96654 /* Cells */,
+				A0F2AE2F1E038D6200C96654 /* ViewControllers */,
+				A0F2AE311E038DC300C96654 /* Storyboards */,
 				A0F2AE161E0337EA00C96654 /* Assets.xcassets */,
-				A0F2AE181E0337EA00C96654 /* LaunchScreen.storyboard */,
 				A0F2AE1B1E0337EA00C96654 /* Info.plist */,
 				A0F2AE131E0337EA00C96654 /* coURses.xcdatamodeld */,
+				A08AE7871E04905B00386370 /* ImageFetchError.swift */,
 			);
 			path = coURses;
+			sourceTree = "<group>";
+		};
+		A0F2AE2F1E038D6200C96654 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A08AE7851E048C8600386370 /* CDCSView.swift */,
+				A0F2AE0E1E0337EA00C96654 /* ViewController.swift */,
+				A0F2AE231E03630600C96654 /* SemestersTableView.swift */,
+				A0F2AE2D1E03821F00C96654 /* IndSemesterViewController.swift */,
+				A0F2AE391E0398F400C96654 /* PopOverAddCourseController.swift */,
+				A08AE7811E0413DE00386370 /* ExistingCoursesViewController.swift */,
+				A08AE7831E04848200386370 /* ImageFetcherController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A0F2AE301E038DAF00C96654 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A0F2AE211E03499A00C96654 /* CourseCell.swift */,
+				A0F2AE251E036ED800C96654 /* SemesterCell.swift */,
+				A08AE77F1E04119100386370 /* ChosenCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A0F2AE311E038DC300C96654 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A0F2AE101E0337EA00C96654 /* Main.storyboard */,
+				A0F2AE181E0337EA00C96654 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0F2AE081E0337EA00C96654 /* coURses */ = {
+		A0F2AE081E0337EA00C96654 /* Plass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0F2AE1E1E0337EA00C96654 /* Build configuration list for PBXNativeTarget "coURses" */;
+			buildConfigurationList = A0F2AE1E1E0337EA00C96654 /* Build configuration list for PBXNativeTarget "Plass" */;
 			buildPhases = (
 				A0F2AE051E0337EA00C96654 /* Sources */,
 				A0F2AE061E0337EA00C96654 /* Frameworks */,
@@ -82,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = coURses;
+			name = Plass;
 			productName = coURses;
-			productReference = A0F2AE091E0337EA00C96654 /* coURses.app */;
+			productReference = A0F2AE091E0337EA00C96654 /* Plass.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A0F2AE041E0337EA00C96654 /* Build configuration list for PBXProject "coURses" */;
+			buildConfigurationList = A0F2AE041E0337EA00C96654 /* Build configuration list for PBXProject "Plass" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0F2AE081E0337EA00C96654 /* coURses */,
+				A0F2AE081E0337EA00C96654 /* Plass */,
 			);
 		};
 /* End PBXProject section */
@@ -139,9 +193,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08AE7821E0413DE00386370 /* ExistingCoursesViewController.swift in Sources */,
+				A0F2AE221E03499A00C96654 /* CourseCell.swift in Sources */,
+				A0F2AE2E1E03821F00C96654 /* IndSemesterViewController.swift in Sources */,
 				A0F2AE151E0337EA00C96654 /* coURses.xcdatamodeld in Sources */,
+				A0F2AE241E03630600C96654 /* SemestersTableView.swift in Sources */,
+				A08AE7801E04119100386370 /* ChosenCell.swift in Sources */,
 				A0F2AE0F1E0337EA00C96654 /* ViewController.swift in Sources */,
+				A08AE7881E04905B00386370 /* ImageFetchError.swift in Sources */,
 				A0F2AE0D1E0337EA00C96654 /* AppDelegate.swift in Sources */,
+				A0F2AE3A1E0398F400C96654 /* PopOverAddCourseController.swift in Sources */,
+				A08AE7861E048C8600386370 /* CDCSView.swift in Sources */,
+				A0F2AE261E036ED800C96654 /* SemesterCell.swift in Sources */,
+				A08AE7841E04848200386370 /* ImageFetcherController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CSC214.coURses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -281,13 +346,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CSC214.coURses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0F2AE041E0337EA00C96654 /* Build configuration list for PBXProject "coURses" */ = {
+		A0F2AE041E0337EA00C96654 /* Build configuration list for PBXProject "Plass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0F2AE1C1E0337EA00C96654 /* Debug */,
@@ -296,13 +362,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0F2AE1E1E0337EA00C96654 /* Build configuration list for PBXNativeTarget "coURses" */ = {
+		A0F2AE1E1E0337EA00C96654 /* Build configuration list for PBXNativeTarget "Plass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0F2AE1F1E0337EA00C96654 /* Debug */,
 				A0F2AE201E0337EA00C96654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

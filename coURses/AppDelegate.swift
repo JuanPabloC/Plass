@@ -13,10 +13,30 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    func setApplicationColorTheme() {
+        let tealColor = RGB(210, 223, 233)
+        
+        // Application tintColor
+        window?.tintColor = tealColor
+        
+        // Navigation bar background color
+        UINavigationBar.appearance().barTintColor = tealColor
+        
+        // Make the back button white (instead of the global tintColor)
+        UINavigationBar.appearance().tintColor = UIColor.black
+        
+        // Make the text in the navigation bar white
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.black]
+    }
+    
+    fileprivate func RGB(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat) -> UIColor {
+        return UIColor(red: r/255, green: g/255, blue: b/255, alpha: 1)
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setApplicationColorTheme()
         return true
     }
 

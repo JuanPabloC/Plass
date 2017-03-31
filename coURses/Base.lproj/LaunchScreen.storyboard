@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A2323a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,7 +21,32 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoursePlanner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cr1-N1-TOh">
+                                <rect key="frame" x="41" y="342" width="292" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="wP2-3b-MRW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" red="0.75763362649999999" green="0.75530177350000005" blue="0.71627014879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlannerImage" translatesAutoresizingMaskIntoConstraints="NO" id="a41-HS-yUa">
+                                <rect key="frame" x="124" y="224" width="126" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="bBI-a4-BON"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80271393060684204" green="0.4620506763458252" blue="0.47508424520492554" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cr1-N1-TOh" firstAttribute="top" secondItem="a41-HS-yUa" secondAttribute="bottom" constant="8" symbolic="YES" id="6uv-2Y-gbO"/>
+                            <constraint firstItem="a41-HS-yUa" firstAttribute="centerX" secondItem="Cr1-N1-TOh" secondAttribute="centerX" id="D25-Op-z8N"/>
+                            <constraint firstItem="Cr1-N1-TOh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="25" id="HK7-Mr-FnU"/>
+                            <constraint firstItem="a41-HS-yUa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XD4-4l-uDH"/>
+                            <constraint firstItem="a41-HS-yUa" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="204" id="pJu-HM-4t6"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Cr1-N1-TOh" secondAttribute="bottom" constant="235" id="uCm-La-XhS"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +54,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PlannerImage" width="960" height="853"/>
+    </resources>
 </document>

@@ -1,0 +1,23 @@
+Juan Pablo Castano
+CSC214: Mobile App Development
+
+Academic Honestly Pledge:
+
+“I affirm that I did not give or receive any unauthorized help on this project, and that all work will is my own.”
+
+App Purpose:
+The purpose of this app is to give students a tool to organize their study plan throughout the four+ years of college. 
+
+Target Audience:
+Anyone going through a 5-year (or less) college program. The targeted user is looking for a tool that makes it easier to organize their study plan.
+
+Why:
+There is no other app like this in the market right now. This app will start being UofR specific but I plan on pushing it to be able to use it for many other schools. Right now the Computer Science department has a similar tool but this app would expand its use to every single other major.  
+
+Future Plan:
+This app will develop to include difference Major Requirements and links to webpages from the school’s server. I want to add a little more color to the app, it look very boring at the moment. I wanna be able to let users create their own profiles so that the information in their app is unique to them. 
+
+Enhancements from Project 2:
+
+1) Added Home Screen: Uses Stack view for different buttons that direct you to different functionalities
+2) 
