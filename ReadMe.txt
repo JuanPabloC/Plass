@@ -1,10 +1,4 @@
 Juan Pablo Castano
-CSC214: Mobile App Development
-
-Academic Honestly Pledge:
-
-“I affirm that I did not give or receive any unauthorized help on this project, and that all work will is my own.”
-
 
 How to use the App:
 
@@ -14,19 +8,3 @@ There are 4 buttons in the home screen:
 	3) CDCS button: This functionality will take you to the CDCS website with a WebView. 
 	4) “Try Image”: This functionality will take you to another View where you can try Image Fetching. Here you can insert a link to an image online and it will be displayed in the image view. 
 	
-
-
-Enhancements from Project 2:
-
-	1) Added a HomeScreen for different functionalities
-	2) Table Views and adding new courses actually work now.
-	3) New better color and UI design
-	4) WebView with CDCS
-	5) Better “Add Course” Views
-	6) Implementation of Core Data
-	7) Better Organization of files
-
-Extra Credit:
-
-1) Use of Core Data
-2) Implementation of Animation and pop up view
